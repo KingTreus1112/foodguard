@@ -1,0 +1,30 @@
+<resources>
+    <!-- brand -->
+    <color name="md_theme_dark_primary">#A2CF6E</color>
+    <color name="md_theme_dark_onPrimary">#153100</color>
+    <color name="md_theme_dark_primaryContainer">#2F3F21</color>
+    <color name="md_theme_dark_onPrimaryContainer">#D9F0B8</color>
+
+    <!-- supporting -->
+    <color name="md_theme_dark_secondary">#4DB6AC</color>
+    <color name="md_theme_dark_onSecondary">#003731</color>
+    <color name="md_theme_dark_secondaryContainer">#0E3B36</color>
+    <color name="md_theme_dark_onSecondaryContainer">#B2DFDB</color>
+
+    <color name="md_theme_dark_tertiary">#B39DDB</color>
+    <color name="md_theme_dark_onTertiary">#2A1A54</color>
+    <color name="md_theme_dark_tertiaryContainer">#3C2A67</color>
+    <color name="md_theme_dark_onTertiaryContainer">#E9DDFF</color>
+
+    <!-- surfaces -->
+    <color name="md_theme_dark_background">#121212</color>
+    <color name="md_theme_dark_onBackground">#E3E2E6</color>
+    <color name="md_theme_dark_surface">#1E1E1E</color>
+    <color name="md_theme_dark_onSurface">#E3E2E6</color>
+    <color name="md_theme_dark_outline">#8A928E</color>
+
+    <!-- status/error/warn -->
+    <color name="md_theme_dark_error">#F2B8B5</color>
+    <color name="md_theme_dark_onError">#601410</color>
+    <color name="foodguard_warning">#FF8F00</color>
+</resources>

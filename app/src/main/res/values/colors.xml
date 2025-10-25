@@ -1,0 +1,30 @@
+<resources>
+    <!-- brand -->
+    <color name="md_theme_light_primary">#7CB342</color>
+    <color name="md_theme_light_onPrimary">#0B1F00</color>
+    <color name="md_theme_light_primaryContainer">#D9F0B8</color>
+    <color name="md_theme_light_onPrimaryContainer">#102006</color>
+
+    <!-- supporting -->
+    <color name="md_theme_light_secondary">#00897B</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_secondaryContainer">#B2DFDB</color>
+    <color name="md_theme_light_onSecondaryContainer">#003731</color>
+
+    <color name="md_theme_light_tertiary">#7E57C2</color>
+    <color name="md_theme_light_onTertiary">#FFFFFF</color>
+    <color name="md_theme_light_tertiaryContainer">#E9DDFF</color>
+    <color name="md_theme_light_onTertiaryContainer">#2A1A54</color>
+
+    <!-- surfaces -->
+    <color name="md_theme_light_background">#FAFAFA</color>
+    <color name="md_theme_light_onBackground">#1B1B1F</color>
+    <color name="md_theme_light_surface">#FFFFFF</color>
+    <color name="md_theme_light_onSurface">#1B1B1F</color>
+    <color name="md_theme_light_outline">#8A928E</color>
+
+    <!-- status/error/warn -->
+    <color name="md_theme_light_error">#B3261E</color>
+    <color name="md_theme_light_onError">#FFFFFF</color>
+    <color name="foodguard_warning">#FF8F00</color>
+</resources>

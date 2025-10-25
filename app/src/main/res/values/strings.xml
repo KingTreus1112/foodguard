@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FoodGuard</string>
+
+    <string-array name="food_categories">
+        <item>Canned</item>
+        <item>Fruits</item>
+        <item>Vegetables</item>
+        <item>Meat</item>
+        <item>Fish</item>
+        <item>Chicken</item>
+        <item>Dairy</item>
+        <item>Noodles/Pasta</item>
+        <item>Grains</item>
+        <item>Pastry/Bread</item>
+        <item>Drinks</item>
+        <item>Condiments</item>
+        <item>Frozen</item>
+        <item>Snacks</item>
+        <item>Others</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "398394070269",
+    "project_id": "foodguard-12eb6",
+    "storage_bucket": "foodguard-12eb6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398394070269:android:d0947374079fea09f39a94",
+        "android_client_info": {
+          "package_name": "com.example.foodguard3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgUBqhkbHvGrJBqR4_ftWvgEk-lYTGz5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

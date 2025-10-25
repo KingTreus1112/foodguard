@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- category filter chips -->
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="4dp">
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/chipsCategories"
+            app:singleSelection="true"
+            app:selectionRequired="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </HorizontalScrollView>
+
+    <!-- search -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:layout_marginBottom="4dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputSearch"
+            android:hint="search name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- list -->
+    <ListView
+        android:id="@+id/listFoods"
+        android:dividerHeight="8dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <!-- empty state -->
+    <TextView
+        android:id="@+id/txtEmpty"
+        android:text="No items yet. Tap + to add."
+        android:gravity="center"
+        android:padding="24dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
